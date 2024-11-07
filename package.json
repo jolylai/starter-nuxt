@@ -3,17 +3,14 @@
   "private": true,
   "packageManager": "pnpm@9.12.3",
   "scripts": {
-    "build": "nuxi build",
     "dev": "nuxi dev",
+    "build": "nuxi build",
     "generate": "nuxi generate",
     "prepare": "nuxi prepare",
     "start": "node .output/server/index.mjs",
     "start:generate": "npx serve .output/public",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit"
-  },
-  "dependencies": {
-    "octokit": "^4.0.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",

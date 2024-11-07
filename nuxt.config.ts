@@ -29,7 +29,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Leon Fong is Contributing...',
+      title: 'Jolylai is Contributing...',
       viewport: 'width=device-width,initial-scale=1',
       link: [
         { rel: 'icon', href: '/favicon.png' },
@@ -37,14 +37,14 @@ export default defineNuxtConfig({
       ],
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Leon Fong\'s recent pull requests' },
+        { name: 'description', content: 'Jolylai\'s recent pull requests' },
         { name: 'theme-color', media: '(prefers-color-scheme: light)', content: 'white' },
         { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#222222' },
         { property: 'og:image', content: 'https://prs.leonfong.me/og.png' },
-        { property: 'og:image:alt', content: 'Leon Fong is Contributing...' },
+        { property: 'og:image:alt', content: 'Jolylai is Contributing...' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:image', content: 'https://prs.leonfong.me/og.png' },
-        { name: 'twitter:image:alt', content: 'Leon Fong is Contributing...' },
+        { name: 'twitter:image:alt', content: 'Jolylai is Contributing...' },
       ],
     },
   },

@@ -9,7 +9,7 @@
 _description_
 
 > **Note**:
-> Replace `pkg-placeholder`, `_description_` and `antfu` globally to use this template.
+> Replace `pkg-placeholder`, `_description_` and `jolylai` globally to use this template.
 
 ## Setup
 
@@ -30,7 +30,6 @@ pnpm dev
 pnpm build
 ```
 
- 
 ## License
 
 [MIT License](./LICENSE)
