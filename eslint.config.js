@@ -9,4 +9,5 @@ export default nuxt(
       formatters: true,
     },
   ),
+  { ignores: ['server/database/migrations/*'] },
 )
