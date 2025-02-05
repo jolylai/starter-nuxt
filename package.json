@@ -18,7 +18,7 @@
     "postgres": "^3.4.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.13.0",
+    "@antfu/eslint-config": "^4.1.1",
     "@iconify-json/heroicons": "^1.2.2",
     "@nuxt/devtools": "^1.7.0",
     "@nuxt/eslint": "^1.0.0",
