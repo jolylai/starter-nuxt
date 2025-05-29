@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "dotenv": "^16.5.0",
-    "drizzle-orm": "^0.43.1",
+    "drizzle-orm": "^0.44.0",
     "postgres": "^3.4.7"
   },
   "devDependencies": {
@@ -25,7 +25,7 @@
     "@nuxtjs/color-mode": "^3.5.2",
     "@unocss/eslint-config": "^66.1.2",
     "@unocss/nuxt": "^66.1.2",
-    "@vueuse/nuxt": "^13.2.0",
+    "@vueuse/nuxt": "^13.3.0",
     "consola": "^3.4.2",
     "drizzle-kit": "^0.31.1",
     "eslint": "^9.27.0",
