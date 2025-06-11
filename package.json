@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.11.1",
+  "packageManager": "pnpm@10.12.1",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
@@ -23,8 +23,8 @@
     "@nuxt/devtools": "^2.5.0",
     "@nuxt/eslint": "^1.4.1",
     "@nuxtjs/color-mode": "^3.5.2",
-    "@unocss/eslint-config": "^66.1.4",
-    "@unocss/nuxt": "^66.1.4",
+    "@unocss/eslint-config": "^66.2.0",
+    "@unocss/nuxt": "^66.2.0",
     "@vueuse/nuxt": "^13.3.0",
     "consola": "^3.4.2",
     "drizzle-kit": "^0.31.1",
