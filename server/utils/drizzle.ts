@@ -1,14 +1,14 @@
+import process from 'node:process'
 import { drizzle } from 'drizzle-orm/postgres-js'
 import postgres from 'postgres'
 
-import { schema } from '../database/schema'
-
-export { and, eq, or, sql } from 'drizzle-orm'
+import { schema } from '../../db/schema'
 
 export const tables = schema
 
-const config = useRuntimeConfig()
-const connection = postgres(config.databaseUrl ?? '')
+const connection = postgres(process.env.DATABASE_URL || '', {
+  prepare: false,
+})
 
 export function useDrizzle() {
   return drizzle(connection, { schema })

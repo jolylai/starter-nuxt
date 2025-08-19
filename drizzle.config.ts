@@ -4,8 +4,8 @@ import 'dotenv/config'
 
 export default {
   dialect: 'postgresql',
-  schema: './server/database/schema/*',
-  out: './server/database/migrations',
+  schema: './db/schema/*',
+  out: './db/migrations',
   dbCredentials: {
     url: process.env.DATABASE_URL!,
   },
