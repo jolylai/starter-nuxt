@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@10.15.1",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
@@ -13,24 +13,24 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "dotenv": "^17.2.1",
-    "drizzle-orm": "^0.44.4",
+    "dotenv": "^17.2.2",
+    "drizzle-orm": "^0.44.5",
     "postgres": "^3.4.7"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.2.1",
+    "@antfu/eslint-config": "^5.3.0",
     "@iconify-json/heroicons": "^1.2.2",
     "@nuxt/devtools": "^2.6.3",
     "@nuxt/eslint": "^1.9.0",
     "@nuxtjs/color-mode": "^3.5.2",
-    "@unocss/eslint-config": "^66.4.2",
-    "@unocss/nuxt": "^66.4.2",
-    "@vueuse/nuxt": "^13.7.0",
+    "@unocss/eslint-config": "^66.5.1",
+    "@unocss/nuxt": "^66.5.1",
+    "@vueuse/nuxt": "^13.9.0",
     "consola": "^3.4.2",
     "drizzle-kit": "^0.31.4",
-    "eslint": "^9.34.0",
+    "eslint": "^9.35.0",
     "eslint-plugin-format": "^1.0.1",
-    "nuxt": "^4.0.3",
+    "nuxt": "^4.1.1",
     "typescript": "^5.9.2",
     "vue-tsc": "^3.0.6"
   }
