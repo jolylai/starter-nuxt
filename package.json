@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.16.1",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
@@ -30,8 +30,8 @@
     "drizzle-kit": "^0.31.4",
     "eslint": "^9.35.0",
     "eslint-plugin-format": "^1.0.1",
-    "nuxt": "^4.1.1",
+    "nuxt": "^4.1.2",
     "typescript": "^5.9.2",
-    "vue-tsc": "^3.0.6"
+    "vue-tsc": "^3.0.7"
   }
 }
