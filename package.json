@@ -23,14 +23,14 @@
     "@nuxt/devtools": "^2.7.0",
     "@nuxt/eslint": "^1.10.0",
     "@nuxtjs/color-mode": "^3.5.2",
-    "@unocss/eslint-config": "^66.5.4",
-    "@unocss/nuxt": "^66.5.4",
+    "@unocss/eslint-config": "^66.5.5",
+    "@unocss/nuxt": "^66.5.5",
     "@vueuse/nuxt": "^14.0.0",
     "consola": "^3.4.2",
     "drizzle-kit": "^0.31.6",
     "eslint": "^9.39.1",
     "eslint-plugin-format": "^1.0.2",
-    "nuxt": "^4.2.0",
+    "nuxt": "^4.2.1",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.1.3"
   }
