@@ -13,7 +13,7 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "dotenv": "^17.2.3",
+    "dotenv": "^18.0.9",
     "drizzle-orm": "^0.44.7",
     "postgres": "^3.4.7"
   },
